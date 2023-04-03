@@ -7,3 +7,8 @@ After the keyboard hook is removed, the output_str variable is initialized as an
 Finally, the output_str variable is written to the output file using the print function.
 
 With this modification, the output will have spaces between valid English words. For example, if the user presses the keys "o", "n", "w", "i", "k", "i", "p", "e", "d", "i", "a", "a", "n", "d", "o", "t
+
+
+With the modified script, the output for the input "OnWikipediaandothersitesrunningonMediaWiki,Special:Randomcanbeusedtoaccessarandomarticleinthemainnamespace;thisfeatureisusefulasatooltogeneratearandomarticle.Dependingonyourbrowser,it'salsopossibletoloadarandompageusingakeyboardshortcut(inFirefox,Edge,andChromeAlt-Shift+X)." would be:
+
+```On Wikipedia and other sites running on MediaWiki, Special: Random can be used to access a random article in the main namespace; this feature is useful as a tool to generate a random article. Depending on your browser, it's also possible to load a random page using a keyboard shortcut (in Firefox, Edge, and Chrome Alt-Shift+X).```
